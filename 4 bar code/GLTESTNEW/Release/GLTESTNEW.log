@@ -1,0 +1,19 @@
+﻿Build started 9/18/2015 7:17:09 AM.
+     1>Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\GLTESTNEW\GLTESTNEW.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\GLTESTNEW.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing gltestnew.h...
+         The system cannot find the path specified.
+         Uic'ing gltestnew.ui...
+         The system cannot find the path specified.
+         Moc'ing glwidget.h...
+         The system cannot find the path specified.
+         Rcc'ing gltestnew.qrc...
+         The system cannot find the path specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\GLTESTNEW\GLTESTNEW.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.36

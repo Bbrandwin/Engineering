@@ -1,0 +1,91 @@
+﻿Build started 5/13/2014 1:48:46 PM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\PlanarFourBar\PlanarFourBar.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\PlanarFourBar.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Point2D" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Coupler" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Link" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PLANARFOURBAR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GLTESTNEW\PlanarFourBar.cpp
+         PlanarFourBar.cpp
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(7): warning C4273: 'PlanarFourBar::PlanarFourBar' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(22) : see previous definition of '{ctor}'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(24): warning C4273: 'PlanarFourBar::PlanarFourBar' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(23) : see previous definition of '{ctor}'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(38): warning C4273: 'PlanarFourBar::setR' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(26) : see previous definition of 'setR'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(43): warning C4273: 'PlanarFourBar::setTheta0' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(27) : see previous definition of 'setTheta0'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(48): warning C4273: 'PlanarFourBar::setTheta1' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(28) : see previous definition of 'setTheta1'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(53): warning C4273: 'PlanarFourBar::setCrnk' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(30) : see previous definition of 'setCrnk'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(58): warning C4273: 'PlanarFourBar::setGnd' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(29) : see previous definition of 'setGnd'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(63): warning C4273: 'PlanarFourBar::setCplr' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(31) : see previous definition of 'setCplr'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(70): warning C4273: 'PlanarFourBar::setCplrLength1' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(32) : see previous definition of 'setCplrLength1'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(75): warning C4273: 'PlanarFourBar::setCplrLength2' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(33) : see previous definition of 'setCplrLength2'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(80): warning C4273: 'PlanarFourBar::setCplrAngle' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(34) : see previous definition of 'setCplrAngle'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(85): warning C4273: 'PlanarFourBar::setRokr' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(35) : see previous definition of 'setRokr'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(90): warning C4273: 'PlanarFourBar::getR' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(37) : see previous definition of 'getR'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(95): warning C4273: 'PlanarFourBar::getTheta0' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(38) : see previous definition of 'getTheta0'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(100): warning C4273: 'PlanarFourBar::getTheta1' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(39) : see previous definition of 'getTheta1'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(105): warning C4273: 'PlanarFourBar::getGnd' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(40) : see previous definition of 'getGnd'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(110): warning C4273: 'PlanarFourBar::getCrnk' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(41) : see previous definition of 'getCrnk'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(115): warning C4273: 'PlanarFourBar::getCplrLength1' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(42) : see previous definition of 'getCplrLength1'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(120): warning C4273: 'PlanarFourBar::getCplrLength2' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(43) : see previous definition of 'getCplrLength2'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(125): warning C4273: 'PlanarFourBar::getCplrAngle' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(44) : see previous definition of 'getCplrAngle'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(130): warning C4273: 'PlanarFourBar::getRokr' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(45) : see previous definition of 'getRokr'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(135): warning C4273: 'PlanarFourBar::getTheta3' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(47) : see previous definition of 'getTheta3'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(166): warning C4273: 'PlanarFourBar::getTheta4' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(48) : see previous definition of 'getTheta4'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(198): warning C4273: 'PlanarFourBar::drawMechanism' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(50) : see previous definition of 'drawMechanism'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(216): warning C4273: 'PlanarFourBar::animate' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(53) : see previous definition of 'animate'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(228): warning C4273: 'PlanarFourBar::drawCurve' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(52) : see previous definition of 'drawCurve'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(248): warning C4273: 'PlanarFourBar::makeCurve' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(51) : see previous definition of 'makeCurve'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.cpp(268): warning C4273: 'PlanarFourBar::getCurve' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\planarfourbar.h(55) : see previous definition of 'getCurve'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PlanarFourBar.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.lib" /MACHINE:X86 /DLL Debug\PlanarFourBar.dll.embed.manifest.res
+         Debug\PlanarFourBar.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Coupler.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PlanarFourBar.dll.embed.manifest" /manifest Debug\PlanarFourBar.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PlanarFourBar.dll.embed.manifest.res" Debug\PlanarFourBar_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PlanarFourBar.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.lib" /MACHINE:X86 /DLL Debug\PlanarFourBar.dll.embed.manifest.res
+         Debug\PlanarFourBar.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Coupler.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.exp
+         PlanarFourBar.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\PlanarFourBar.unsuccessfulbuild".
+         Touching "Debug\PlanarFourBar.lastbuildstate".
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\PlanarFourBar\PlanarFourBar.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91

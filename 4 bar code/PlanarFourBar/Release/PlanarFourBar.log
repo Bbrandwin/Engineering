@@ -1,0 +1,13 @@
+﻿Build started 9/18/2015 7:17:08 AM.
+     1>Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\PlanarFourBar\PlanarFourBar.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PlanarFourBar.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PLANARFOURBAR_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GLTESTNEW\PlanarFourBar.cpp
+         PlanarFourBar.cpp
+     1>c:\users\benjamin\downloads\group_14_benjamin_brandwin_final_project\gltestnew\gltestnew\PlanarFourBar.h(13): fatal error C1083: Cannot open include file: 'QtCore/qobject.h': No such file or directory
+     1>Done Building Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\PlanarFourBar\PlanarFourBar.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30

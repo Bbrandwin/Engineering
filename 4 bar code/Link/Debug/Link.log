@@ -1,0 +1,51 @@
+﻿Build started 5/13/2014 1:48:38 PM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Link\Link.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Link.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Point2D" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GLTESTNEW\Link.cpp
+         Link.cpp
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(8): warning C4273: 'Link::Link' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(21) : see previous definition of '{ctor}'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(17): warning C4273: 'Link::setLength' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(22) : see previous definition of 'setLength'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(22): warning C4273: 'Link::setAngle' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(25) : see previous definition of 'setAngle'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(27): warning C4273: 'Link::setPos' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(23) : see previous definition of 'setPos'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(32): warning C4273: 'Link::setPos' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(24) : see previous definition of 'setPos'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(38): warning C4273: 'Link::getLength' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(27) : see previous definition of 'getLength'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(43): warning C4273: 'Link::getAngle' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(28) : see previous definition of 'getAngle'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(48): warning C4273: 'Link::getPos1' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(30) : see previous definition of 'getPos1'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(54): warning C4273: 'Link::getPos2' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(31) : see previous definition of 'getPos2'
+     1>c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.cpp(64): warning C4273: 'Link::draw' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\link.h(33) : see previous definition of 'draw'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Link.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib" /MACHINE:X86 /DLL Debug\Link.dll.embed.manifest.res
+         Debug\Link.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Link.dll.embed.manifest" /manifest Debug\Link.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Link.dll.embed.manifest.res" Debug\Link_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Link.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib" /MACHINE:X86 /DLL Debug\Link.dll.embed.manifest.res
+         Debug\Link.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.exp
+         Link.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\Link.unsuccessfulbuild".
+         Touching "Debug\Link.lastbuildstate".
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Link\Link.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.72

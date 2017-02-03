@@ -1,0 +1,13 @@
+﻿Build started 9/18/2015 7:17:07 AM.
+     1>Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\Link\Link.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Link.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Point2D\Release" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Point2D" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LINK_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GLTESTNEW\Link.cpp
+         Link.cpp
+     1>..\GLTESTNEW\Link.cpp(3): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+     1>Done Building Project "C:\Users\Benjamin\Downloads\Group_14_Benjamin_Brandwin_Final_Project\GLTESTNEW\Link\Link.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

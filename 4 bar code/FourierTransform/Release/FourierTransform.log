@@ -1,0 +1,50 @@
+﻿Build started 5/13/2014 10:13:43 AM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\FourierTransform\FourierTransform.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\FourierTransform.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FOURIERTRANSFORM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GLTESTNEW\FourierTransform.cpp
+         FourierTransform.cpp
+     1>..\GLTESTNEW\FourierTransform.cpp(7): warning C4273: 'FourierTransform::FourierTransform' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(19) : see previous definition of '{ctor}'
+     1>..\GLTESTNEW\FourierTransform.cpp(13): warning C4273: 'FourierTransform::FourierTransform' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(20) : see previous definition of '{ctor}'
+     1>..\GLTESTNEW\FourierTransform.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(27): warning C4273: 'FourierTransform::getAngleChange' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(28) : see previous definition of 'getAngleChange'
+     1>..\GLTESTNEW\FourierTransform.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(41): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\GLTESTNEW\FourierTransform.cpp(45): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\GLTESTNEW\FourierTransform.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(65): warning C4273: 'FourierTransform::getCurveLength' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(27) : see previous definition of 'getCurveLength'
+     1>..\GLTESTNEW\FourierTransform.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(85): warning C4273: 'FourierTransform::getTotalLength' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(26) : see previous definition of 'getTotalLength'
+     1>..\GLTESTNEW\FourierTransform.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(102): warning C4273: 'FourierTransform::forward' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(23) : see previous definition of 'forward'
+     1>..\GLTESTNEW\FourierTransform.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>..\GLTESTNEW\FourierTransform.cpp(126): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\GLTESTNEW\FourierTransform.cpp(130): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>..\GLTESTNEW\FourierTransform.cpp(142): warning C4273: 'FourierTransform::getOuput' : inconsistent dll linkage
+                 c:\users\benjamin\documents\visual studio 2010\projects\gltestnew\gltestnew\FourierTransform.h(34) : see previous definition of 'getOuput'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\FourierTransform.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.lib" /MACHINE:X86 /DLL Release\FourierTransform.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.exp
+         Generating code
+         Finished generating code
+         FourierTransform.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Release\FourierTransform.dll;#2" /manifest Release\FourierTransform.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\FourierTransform.unsuccessfulbuild".
+         Touching "Release\FourierTransform.lastbuildstate".
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\FourierTransform\FourierTransform.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60

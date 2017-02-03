@@ -1,0 +1,40 @@
+﻿Build started 5/13/2014 1:48:50 PM.
+     1>Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\GLTESTNEW\GLTESTNEW.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GLTESTNEW.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\FourierTransform" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Coupler" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\BSplineTweak" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Point2D" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Link" /I"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\PlanarFourBar" /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /IC:\Qt\4.8.5\include\QtOpenGL /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt glwidget.cpp main.cpp
+         glwidget.cpp
+         main.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\\GLTESTNEW.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.5\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GLTESTNEW.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\GLTESTNEW.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\GLTESTNEW.lib" /MACHINE:X86 Debug\moc_gltestnew.obj
+         Debug\moc_glwidget.obj
+         Debug\qrc_gltestnew.obj
+         Debug\gltestnew.obj
+         Debug\glwidget.obj
+         Debug\main.obj
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\BSplineTweak.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Complex.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Coupler.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\CurveComparison.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\FFT.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\FourierTransform.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Link.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\PlanarFourBar.lib"
+         "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Debug\Point2D.lib"
+            Creating library C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\GLTESTNEW.lib and object C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\GLTESTNEW.exp
+         GLTESTNEW.vcxproj -> C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\GLTESTNEW.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\Win32\Debug\\GLTESTNEW.exe;#1" /manifest Debug\GLTESTNEW.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\GLTESTNEW.unsuccessfulbuild".
+         Touching "Debug\GLTESTNEW.lastbuildstate".
+     1>Done Building Project "C:\Users\Benjamin\Documents\Visual Studio 2010\Projects\GLTESTNEW\GLTESTNEW\GLTESTNEW.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.19
